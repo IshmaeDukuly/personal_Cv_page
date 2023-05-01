@@ -1,0 +1,147 @@
+
+body{ 
+    box-sizing: border-box;
+    margin-left: 3rem;
+    position: absolute;
+    scroll-behavior: smooth; 
+    top: 20%;
+    height: 100vh;   
+}
+
+#intro_section{
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;  
+}
+span>#contact_link,a{
+    position: fixed;
+    text-align: center;
+    top: 40px;
+    overflow: hidden;
+    
+    
+}
+#intro_image>img{
+    overflow: hidden;
+    border-radius: 50% 50%;
+    box-shadow: 0px 1px 2px #2B3044,
+    0px 4px 16px #2B3044;
+}
+
+ #name{
+    color: #161B40;
+    opacity: .9;
+}
+#author {
+    
+    font-family: Arial, Helvetica, sans-serif
+}
+#email{
+color:#161B40;
+}
+
+#education_heading{
+    color: #161B40;
+    
+}
+#education_section{
+    padding: auto;
+    width: auto 50px;
+}
+#education_table{
+    padding: 1.5rem;
+    width: 100px;
+}
+
+ #education_table>table, th, td{
+    margin: 2rem;
+    padding: 10px;
+}
+#experience_heading{
+    color: #161B40;
+    
+}
+
+#projects_title{
+    color: #161B40;
+    
+}
+#project_list>ul,li{
+    list-style-type: none;
+}
+button{
+    
+font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #2B3044;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  position: relative;
+  line-height: 24px;
+  border-radius: 9px;
+  box-shadow: 0px 1px 2px #2B3044,
+    0px 4px 16px #2B3044;
+  transform-style: preserve-3d;
+  transform: scale(var(--s, 1)) perspective(600px)
+    rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  perspective: 600px;
+  transition: transform 0.1s;
+  
+}
+
+#copy_right{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+/* contact_link */
+div>#contact_link, a{
+    text-decoration: none;
+}
+
+#contact_me{
+    text-align: center;
+    margin: auto 100px;
+    padding: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2B3044;
+}
+
+form>label{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#email_field{
+    padding: 10px;
+    border-radius: .5rem .7rem;
+    width: 300px;
+}
+
+#message_field{
+    padding: 10%;
+    width: 80%;
+}
+
+#btn{
+    box-shadow: 12px 12px 3% 3%;
+    margin-top: 50px;
+}
+
+#submit_button{
+    font-size: 15px;
+    border-radius: 5% 10px;
+    width: 100px;
+    line-height: 8px;
+}
+
+#submit_button:hover{
+    color: hotpink;
+    background-color: #000;
+    text-transform: uppercase;
+    transition: all;
+}
